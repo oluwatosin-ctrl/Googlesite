@@ -1,0 +1,106 @@
+.dav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+   
+}
+.dav>a{
+    text-decoration: none;
+    color: #747272;
+}
+
+.buttons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+button {
+    color: #acacac;
+    background-color: #fafafa;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    border: 0.5px solid #acacac;
+    cursor: pointer;
+
+}
+
+img {
+    margin-top: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: 0.1px solid black;
+    text-align: center;
+}
+
+#input:focus {
+    outline: none;
+}
+
+
+body>h1 {
+    font-size: 70px;
+    text-align: center;
+
+}
+
+.copy {
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+footer{
+    margin-top: 185px;
+    
+    
+}
+footer>p{
+    margin-left: 38px;
+    text-decoration: none;
+    color: #747272;
+}
+footer>.pit>a{
+    display: inline;
+    text-decoration: none;
+    color: #747272;
+    margin-right: 38px;
+    margin-left: 38px;
+    text-align: center;
+}
+
+
+.lang{
+    display: inline;
+    margin-top: 700px;
+    text-align: center;
+}
+.lang>p{
+    margin-top: 30px;
+}
